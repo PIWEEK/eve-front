@@ -1,0 +1,15 @@
+{
+  "name": "eve-front",
+  "version": "0.0.1",
+  "description": "Eve app | The event application",
+  "author": "Piweek",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-uglify": "~0.3.0",
+    "grunt-contrib-sass": "~0.7.3",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-livereload": "~0.1.1",
+    "grunt-contrib-jade": "~0.12.0"
+  }
+}

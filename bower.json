@@ -1,0 +1,30 @@
+{
+  "name": "eve-front",
+  "version": "0.0.1",
+  "description": "Eve app | The event application",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "Cocina",
+    "Framework",
+    "Website"
+  ],
+  "authors": [
+    "Piweek"
+  ],
+  "license": "MIT",
+  "homepage": "http://piweek.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.0",
+    "animate.css": "~3.2.0"
+  }
+}
