@@ -1,0 +1,169 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #5fbcd3;
+}
+a:hover {
+  text-decoration: none;
+  color: #164450;
+}
+
+h1 {
+  font-size: 1.8em;
+  color: #93a7ac;
+  padding: 0.6em 0 1em 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #93a7ac;
+  padding: 0.6em 0 1em 0;
+}
+
+.last {
+  margin-right: 0 !important;
+}
+
+::selection {
+  background: #37c8ab;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #37c8ab;
+  text-shadow: none;
+}
+
+input.search {
+  border: 1px solid #dbe2e3;
+  padding: 0.8em;
+  font-size: 1em;
+  color: #006680;
+  outline: 0;
+  font-weight: lighter;
+}
+input.search::-webkit-input-placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+input.search:-moz-placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+input.search::-moz-placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+input.search:-ms-input-placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+input.search:focus {
+  border: 1px solid #5fbcd3;
+}
+input.search:focus::-webkit-input-placeholder {
+  color: #5fbcd3;
+}
+input.search:focus:-moz-placeholder {
+  color: #5fbcd3;
+}
+input.search:focus::-moz-placeholder {
+  color: #5fbcd3;
+}
+input.search:focus:-ms-input-placeholder {
+  color: #5fbcd3;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+body {
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  color: #1f1f1f;
+  background-color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  padding: 1em;
+  border-bottom: 1px solid #dbe2e3;
+  height: 90px;
+}
+
+.eve-logo a img {
+  width: 160px;
+}
+.eve-logo a:hover {
+  opacity: 0.6;
+}
+
+.eve-icon img {
+  width: 60px;
+  margin: 0 45%;
+}
+
+.home-grid [class^="column-"], .home-grid [class*="column-"] {
+  padding: 0.2em;
+}
+
+footer {
+  margin-top: 20px;
+  color: #93a7ac;
+  text-align: center;
+  padding: 0.8em;
+  border-top: 1px solid #dbe2e3;
+}

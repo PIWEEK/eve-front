@@ -1,4 +1,51 @@
-html
-    .prueba
-        p prueba de Jade
-        a mola
+html( lang='en-US')
+    head
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+        title EVE APP | The events organizer
+        link(rel='stylesheet', href='../css/style.css')
+        link(rel='stylesheet', href='../css/flexboxgrid.css')
+        link(rel='stylesheet', href='../bower_components/animate.css/animate.min.css')
+        link(rel='stylesheet', type='text/css', link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800')
+    body
+        .row
+            header.column-12-hand
+                .row.middle-hand
+                    .eve-logo.column-3-hand 
+                        a(href="/")
+                            img(src='../images/eve-text.svg', border='0')
+                    .eve-icon.column-6-hand
+                        img(src='../images/eve.svg', border='0') 
+                    .column-3-hand
+                        input.search(type='text', placeholder='Search an event')
+        .row.center-hand
+            .column-12-hand.column-10-lap.column-9-desk.column-10-wall
+                h1 Next events
+                .row.home-grid
+                    .column-6-hand.tomato
+                        a(href='#')
+                            img(src='../images/2x1.png', border='0')
+                    .column-3-hand.tomato
+                        a(href='#')
+                            img(src='../images/1x2.png', border='0')
+                    .column-3-hand.tomato
+                        a(href='#')
+                            img(src='../images/1x1.png', border='0')
+                    .column-3-hand.tomato
+                        a(href='#')
+                            img(src='../images/2x1.png', border='0')
+                    .column-3-hand.tomato
+                        a(href='#')
+                            img(src='../images/1x2.png', border='0')
+                    .column-3-hand.tomato
+                        a(href='#')
+                            img(src='../images/1x1.png', border='0')
+                    .column-3-hand.tomato
+                        a(href='#')
+                            img(src='../images/1x1.png', border='0')
+
+        .row
+            footer.column-12-hand
+                p
+                    eventapp ©2014 |
+                    a(href='#') Log In
