@@ -15,29 +15,68 @@ a {
 
 h1 {
     font-size: 1.8em;
+    font-weight: lighter;
     color: $mediumgray;
     padding: 0.6em 0 1em 0;
 }
 
 h2 {
     font-size: 1.5em;
+    font-weight: lighter;
     color: $mediumgray;
     padding: 0.6em 0 1em 0;
 }
 
-// FLEXGRID LAST ELEMENT
+//POSITION
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.inline {
+    display: inline;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+//GRID
+.full {
+    width: 100%;
+}
+
+.half {
+    width: 49.35%;
+}
+
+.third {
+    width: 32%;
+}
+
+.quarter {
+    width: 24.5%;
+}
+
 .last {
     margin-right: 0 !important;
 }
 
 // TEXT SELECTION
 ::selection {
-    background: $green;
+    background: $blue;
     text-shadow: none;
 }
 
 ::-moz-selection {
-    background: $green;
+    background: $blue;
     text-shadow: none;
 }
 

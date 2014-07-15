@@ -11,7 +11,7 @@
 body {
     line-height: 1.5;
     font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
+    font-weight: 500;
     color: $darkgray;
     background-color: white;
     -webkit-font-smoothing: antialiased;
@@ -21,36 +21,89 @@ header {
     padding: 1em;
     border-bottom: 1px solid $lightgray;
     height: 90px;
-}
-
-.eve-logo {
-    a {
+    .eve-logo {
+        a {
+            img {
+                width: 160px;
+            }
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+    }
+    .eve-icon {
+        position: absolute;
+        left: 48%;
         img {
-            width: 160px;
+            width: 60px;
         }
-        &:hover {
-            opacity: 0.6;
-        }
+    }
+    input.search {
+        width: 100%;
+        max-width: 300px;
     }
 }
 
-.eve-icon {
-    img {
-        width: 60px;
-        margin: 0 45%;
+.content {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    h1 {
+        text-align: center;
     }
-}
-
-.home-grid {
-    [class^="column-"], [class*="column-"] {
-        padding: 0.2em;
+    .home-grid {
+        .event-home {
+            position: relative;
+            vertical-align: top;
+            margin-bottom: 0.3em;
+            padding-bottom: 24.5%;
+            overflow: hidden;
+            height: 0;
+            background-color: $blue;
+            img {
+                margin: -8% 0 0 -5%;
+                height: 130%;
+                width: auto;
+            }
+            &.quarter {
+                img {
+                    margin: -8% 0 0 -8%;
+                    height: 140%;
+                }
+            }
+            .event-home-info {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                padding: 1em;
+                background-color: rgba(0,0,0,0.6);
+                z-index: 2;
+                &:hover {
+                    background-color: rgba(95,188,211,0.8);
+                    padding-top: 100%;
+                }
+                a {
+                    color: white;
+                    font-weight: 500;
+                    font-size: 1.4em;
+                    display: block;
+                    &:hover {
+                        color: $darkgray;
+                    }
+                }
+                .event-home-date {
+                    display: block;
+                    color: white;
+                }
+            }
+        }
     }
 }
 
 footer {
-    margin-top: 20px;
+    margin-top: 2em;
     color: $mediumgray;
     text-align: center;
-    padding: 0.8em;
+    padding: 1.6em;
     border-top: 1px solid $lightgray;
 }
