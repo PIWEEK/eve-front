@@ -1,0 +1,58 @@
+//TABLET PORTRAIT
+@media only screen and (max-width: 48em) {
+    //GENERAL
+    header {
+        .eve-logo > a > img {
+            width: 140px;
+        }
+        .eve-icon {
+            display: none;
+        }
+        input.search {
+            width: 52%;
+        }
+    }
+    //GRID
+    .half {
+        width: 100%;
+    }
+
+    .third {
+        width: 49.35%;
+    }
+
+    .quarter {
+        width: 32.5%;
+    }
+
+    //HOME
+    .content {
+        padding: 0.3em;
+        .home-grid > .event-home {
+            padding-bottom: 33%;
+            &.half {
+                padding-bottom: 49%;
+            }
+            .event-home-info {
+                font-size: 0.8em;
+            }
+        }
+    }
+}
+
+//SMARTPHONE PORTRAIT
+@media only screen and (max-width: 30em) {
+    //GRID
+    .third {
+        width: 100%;
+    }
+
+    .quarter {
+        width: 49.2%;
+    }
+
+    //HOME
+    .content > .home-grid > .event-home {
+        padding-bottom: 49.35%;
+    }
+}

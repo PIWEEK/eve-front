@@ -34,6 +34,7 @@ h2 {
 
 .inline-block {
     display: inline-block;
+    margin-right: -4px;
 }
 
 .inline {
@@ -90,6 +91,7 @@ input.search {
     @include placeholder {
         font-family: 'Open Sans', sans-serif;
         font-weight: lighter;
+        color: $lightgray;
     }
     &:focus {
         border: 1px solid $blue;

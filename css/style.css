@@ -72,6 +72,7 @@ h2 {
 
 .inline-block {
   display: inline-block;
+  margin-right: -4px;
 }
 
 .inline {
@@ -127,18 +128,22 @@ input.search {
 input.search::-webkit-input-placeholder {
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
+  color: #dbe2e3;
 }
 input.search:-moz-placeholder {
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
+  color: #dbe2e3;
 }
 input.search::-moz-placeholder {
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
+  color: #dbe2e3;
 }
 input.search:-ms-input-placeholder {
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
+  color: #dbe2e3;
 }
 input.search:focus {
   border: 1px solid #5fbcd3;
@@ -211,6 +216,7 @@ header input.search {
   position: relative;
   vertical-align: top;
   margin-bottom: 0.3em;
+  margin-right: 0.06em;
   padding-bottom: 24.5%;
   overflow: hidden;
   height: 0;
@@ -257,4 +263,54 @@ footer {
   text-align: center;
   padding: 1.6em;
   border-top: 1px solid #dbe2e3;
+}
+
+@media only screen and (max-width: 48em) {
+  header .eve-logo > a > img {
+    width: 140px;
+  }
+  header .eve-icon {
+    display: none;
+  }
+  header input.search {
+    width: 52%;
+  }
+
+  .half {
+    width: 100%;
+  }
+
+  .third {
+    width: 49.35%;
+  }
+
+  .quarter {
+    width: 32.5%;
+  }
+
+  .content {
+    padding: 0.3em;
+  }
+  .content .home-grid > .event-home {
+    padding-bottom: 33%;
+  }
+  .content .home-grid > .event-home.half {
+    padding-bottom: 49%;
+  }
+  .content .home-grid > .event-home .event-home-info {
+    font-size: 0.8em;
+  }
+}
+@media only screen and (max-width: 30em) {
+  .third {
+    width: 100%;
+  }
+
+  .quarter {
+    width: 49.2%;
+  }
+
+  .content > .home-grid > .event-home {
+    padding-bottom: 49.35%;
+  }
 }

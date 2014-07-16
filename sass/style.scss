@@ -56,6 +56,7 @@ header {
             position: relative;
             vertical-align: top;
             margin-bottom: 0.3em;
+            margin-right: 0.06em;
             padding-bottom: 24.5%;
             overflow: hidden;
             height: 0;
@@ -107,3 +108,5 @@ footer {
     padding: 1.6em;
     border-top: 1px solid $lightgray;
 }
+
+@import 'responsive';
