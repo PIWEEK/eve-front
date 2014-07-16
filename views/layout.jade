@@ -1,11 +1,14 @@
+doctype html
 html( lang='en-US')
     head
         meta(name='viewport', content='width=device-width, initial-scale=1')
         meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
         title EVE APP | The events organizer
         link(rel='stylesheet', href='../css/style.css')
+        link(rel='stylesheet', href='../fonts/font-framework/style.css')
         link(rel='stylesheet', href='../bower_components/animate.css/animate.min.css')
         link(rel='stylesheet', type='text/css', link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800')
+        script(src='../js/features.js', type='text/javascript')
     body
         .row
             header.full.block
@@ -16,8 +19,8 @@ html( lang='en-US')
                     img(src='../images/eve.svg', border='0')
 
                 input.search.right(type='text', placeholder='Search an event')
-            section.content
-                .home-grid.full.block
+            .content
+                section.home-grid.full.block
                     h1.full Next events
                     .event-home.inline-block.half
                         .event-home-info

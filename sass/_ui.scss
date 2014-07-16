@@ -13,6 +13,10 @@ a {
     }
 }
 
+p {
+    margin-bottom: 12px;
+}
+
 h1 {
     font-size: 1.8em;
     font-weight: lighter;
@@ -52,6 +56,10 @@ h2 {
     float: left;
 }
 
+.translate-3d-menu {
+    @include translate-3d(-70%, 0, 0);
+}
+
 //GRID
 .full {
     width: 100%;
@@ -77,13 +85,16 @@ h2 {
 ::selection {
     background: $blue;
     text-shadow: none;
+    color: white;
 }
 
 ::-moz-selection {
     background: $blue;
     text-shadow: none;
+    color: white;
 }
 
+//ELEMENTS
 input.search {
     border: 1px solid $lightgray;
     padding: 0.8em;
@@ -102,4 +113,13 @@ input.search {
             color: $blue;
         }
     }
+}
+
+//COLORS
+.bg-white {
+    background-color: white;
+}
+
+.bg-darkblue {
+    background-color: $darkblue;
 }

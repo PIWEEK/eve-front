@@ -12,7 +12,7 @@ body {
     line-height: 1.5;
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
-    color: $darkgray;
+    color: $mediumgray;
     background-color: white;
     -webkit-font-smoothing: antialiased;
 }
@@ -102,7 +102,84 @@ header {
         }
     }
     //EVENTS
-
+    .event-content {
+        position: relative;
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+        nav.event-nav {
+            width: 100%;
+            ul {
+                li {
+                    list-style: none;
+                    display: inline-block;
+                    text-align: center;
+                    width: 24%;
+                    a {
+                        display: inline-block;
+                        color: $mediumgray;
+                        font-size: 1.2em;
+                        padding: 0 2em 2em 2em;
+                        &:hover {
+                            color: $blue;
+                        }
+                        &.current {
+                            color: $darkblue;
+                        }
+                    }
+                }
+            }
+        }
+        #event-nav-icon {
+            display: none;
+            font-size: 2em;
+            margin: 15px 6px 0 0;
+            position: absolute;
+            top: 0;
+            right: 0;
+            cursor: pointer;
+        }
+        nav.event-mobile {
+            display: none;
+            position: fixed;
+            background-color: $darkblue;
+            top: 0;
+            right: -70%;
+            width: 70%;
+            height: 1500px;
+            z-index: 990;
+            ul {
+                width: 100%;
+                li {
+                    width: 100%;
+                    display: block;
+                    border-bottom: 1px solid $darkblue;
+                    text-align: right;
+                    font-size: 1.4em;
+                    a {
+                        color: $lightgray;
+                        width: 100%;
+                        height: 100%;
+                        padding: 15px;
+                        display: block;
+                        &:hover {
+                            background-color: $blue;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+        .event-img {
+            width: 100%;
+        }
+        .event-text {
+            color: darken($mediumgray, 10%);
+            text-align: justify;
+            margin: 2em 0 0 0;
+            padding: 0.6em;
+        }
+    }
 }
 
 footer {

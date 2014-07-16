@@ -37,6 +37,18 @@
                 font-size: 0.8em;
             }
         }
+        //EVENT
+        .event-content {
+            .event-nav {
+                display: none;
+            }
+            #event-nav-icon {
+                display: block;
+            }
+            .event-text {
+                font-size: 0.9em;
+            }
+        }
     }
 }
 
