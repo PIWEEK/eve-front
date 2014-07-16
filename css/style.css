@@ -222,6 +222,7 @@ header input.search {
   background-color: #5fbcd3;
 }
 .content .home-grid .event-home img {
+  position: absolute;
   margin: -8% 0 0 -5%;
   height: 130%;
   width: auto;
