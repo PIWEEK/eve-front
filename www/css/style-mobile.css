@@ -1,0 +1,18 @@
+.overlay {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left:0px;
+    top:0px;
+    z-index:980;
+    background-color: #000000;
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+
+.content .event-content nav.event-mobile {
+  right: 0;
+  width: 40%;
+}

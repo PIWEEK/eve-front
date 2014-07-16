@@ -1,0 +1,86 @@
+
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>EVE APP | The events organizer</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style-mobile.css"/>
+    <link rel="stylesheet" href="fonts/font-framework/style.css"/>
+    <link rel="stylesheet" href="css/animate.min.css"/>
+    <link rel="stylesheet" type="text/css" link="link" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"/>
+  </head>
+  <body id="body">
+
+    <div class="row" id="event-list">
+        <header class="full block">
+            <div class="eve-logo inline-block"><a href="#"><img src="images/eve-text.png" border="0"></a></div>
+            <div class="eve-icon inline-block"><img src="images/eve.svg" border="0"></div>
+            <input type="text" placeholder="Search an event" class="search right">
+        </header>
+        <div class="content">
+            <section class="home-grid full block">
+              <h1 class="full">Next events</h1>
+            </section>
+          </div>
+    </div>
+
+
+
+
+
+    <div class="row hide" id="event-info">
+      <header class="full block">
+        <div class="eve-logo inline-block"><a href="#"><img src="images/eve-text.png" border="0"></a></div>
+        <div class="eve-icon inline-block right"><img src="images/eve.svg" border="0"></div>
+      </header>
+      <div class="content">
+        <section class="event-content">
+          <h1 class="full">Event Name</h1>
+          <nav class="event-nav">
+            <ul>
+              <li><a href="event.html" class="current">Info</a></li>
+              <li><a href="event-talks.html">Talks</a></li>
+              <li><a href="event-speakers.html">Speakers</a></li>
+              <li><a href="event-location.html">Location</a></li>
+            </ul>
+          </nav><i id="event-nav-icon" class="icon-menu"></i>
+          <nav class="event-mobile">
+            <ul>
+              <li><img src="images/eve.svg" border="0" class="icon-eve"></li>
+              <li><a href="event.html" class="current">Info</a></li>
+              <li><a href="event-talks.html">Talks</a></li>
+              <li><a href="event-speakers.html">Speakers</a></li>
+              <li><a href="event-location.html">Location</a></li>
+            </ul>
+          </nav>
+          <div class="event-img"><img src="images/2x1.png"></div>
+          <div class="event-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+
+
+
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/sample.js"></script>
+    <script type="text/javascript" src="js/dao.js"></script>
+    <script type="text/javascript" src="js/comms.js"></script>
+    <script type="text/javascript" src="js/gui.js"></script>
+    <script type="text/javascript" src="js/data.js"></script>
+    <script type="text/javascript" src="js/hammer.min.js"></script>
+    <script type="text/javascript" src="js/features.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+        //gui.initSwipe();
+        //gui.drawEvents([{id:1, name:'aa', startDate:'01/01/2015'},{id:2, name:'bb', startDate:'01/01/2015'},{id:3, name:'aa', startDate:'01/01/2015'},{id:4, name:'bb', startDate:'01/01/2015'},{id:5, name:'aa', startDate:'01/01/2015'},{id:6, name:'bb', startDate:'01/01/2015'}]);
+    </script>
+  </body>
+</html>
