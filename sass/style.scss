@@ -153,9 +153,10 @@ header {
                 li {
                     width: 100%;
                     display: block;
-                    border-bottom: 1px solid $darkblue;
+                    border-bottom: 1px solid lighten($darkblue, 8%);
                     text-align: right;
                     font-size: 1.4em;
+                    font-weight: lighter;
                     a {
                         color: $lightgray;
                         width: 100%;
@@ -167,6 +168,11 @@ header {
                             color: white;
                         }
                     }
+                }
+                .icon-eve {
+                    width: 40%;
+                    margin: 10px 33%;
+                    cursor: pointer;
                 }
             }
         }

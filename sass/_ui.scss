@@ -115,6 +115,49 @@ input.search {
     }
 }
 
+//TAGS
+.tagline {
+    display: inline-block;
+    width: 100%;
+    .tag {
+        display: inline-block;
+        margin-right: 4px;
+        background-color: lighten($blue, 15%);
+        color: $darkblue;
+        padding: 0.3em 1em;
+        &.tag-green {
+            border-left: 8px solid $green;
+        }
+        &.tag-pink {
+            border-left: 8px solid $pink;
+        }
+        &.tag-cyan {
+            border-left: 8px solid $cyan;
+        }
+        &.tag-lime {
+            border-left: 8px solid $lime;
+        }
+        &.tag-purple {
+            border-left: 8px solid $purple;
+        }
+        &.tag-yellow {
+            border-left: 8px solid $yellow;
+        }
+        &.tag-red {
+            border-left: 8px solid $red;
+        }
+        &.tag-brown {
+            border-left: 8px solid $brown;
+        }
+        &.tag-orange {
+            border-left: 8px solid $orange;
+        }
+        &.tag-black {
+            border-left: 8px solid $black;
+        }
+    }
+}
+
 //COLORS
 .bg-white {
     background-color: white;

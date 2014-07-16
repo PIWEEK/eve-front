@@ -178,6 +178,48 @@ input.search:focus:-ms-input-placeholder {
   color: #5fbcd3;
 }
 
+.tagline {
+  display: inline-block;
+  width: 100%;
+}
+.tagline .tag {
+  display: inline-block;
+  margin-right: 4px;
+  background-color: #9bd5e3;
+  color: #164450;
+  padding: 0.3em 1em;
+}
+.tagline .tag.tag-green {
+  border-left: 8px solid #37c8ab;
+}
+.tagline .tag.tag-pink {
+  border-left: 8px solid #ff5599;
+}
+.tagline .tag.tag-cyan {
+  border-left: 8px solid #80e5ff;
+}
+.tagline .tag.tag-lime {
+  border-left: 8px solid #d4ff2a;
+}
+.tagline .tag.tag-purple {
+  border-left: 8px solid #b380ff;
+}
+.tagline .tag.tag-yellow {
+  border-left: 8px solid #ffdd55;
+}
+.tagline .tag.tag-red {
+  border-left: 8px solid #ff2a2a;
+}
+.tagline .tag.tag-brown {
+  border-left: 8px solid #916f6f;
+}
+.tagline .tag.tag-orange {
+  border-left: 8px solid #ff7f2a;
+}
+.tagline .tag.tag-black {
+  border-left: 8px solid #1c2422;
+}
+
 .bg-white {
   background-color: white;
 }
@@ -334,9 +376,10 @@ header input.search {
 .content .event-content nav.event-mobile ul li {
   width: 100%;
   display: block;
-  border-bottom: 1px solid #164450;
+  border-bottom: 1px solid #1f5f70;
   text-align: right;
   font-size: 1.4em;
+  font-weight: lighter;
 }
 .content .event-content nav.event-mobile ul li a {
   color: #dbe2e3;
@@ -348,6 +391,11 @@ header input.search {
 .content .event-content nav.event-mobile ul li a:hover {
   background-color: #5fbcd3;
   color: white;
+}
+.content .event-content nav.event-mobile ul .icon-eve {
+  width: 40%;
+  margin: 10px 33%;
+  cursor: pointer;
 }
 .content .event-content .event-img {
   width: 100%;
