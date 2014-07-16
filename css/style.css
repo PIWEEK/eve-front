@@ -72,7 +72,6 @@ h2 {
 
 .inline-block {
   display: inline-block;
-  margin-right: -4px;
 }
 
 .inline {
@@ -92,7 +91,7 @@ h2 {
 }
 
 .half {
-  width: 49.35%;
+  width: 49.3%;
 }
 
 .third {
@@ -216,7 +215,7 @@ header input.search {
   position: relative;
   vertical-align: top;
   margin-bottom: 0.3em;
-  margin-right: 0.06em;
+  margin-right: 0.3%;
   padding-bottom: 24.5%;
   overflow: hidden;
   height: 0;
