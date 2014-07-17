@@ -365,6 +365,15 @@ footer {
     text-align: center;
     padding: 1.6em;
     border-top: 1px solid $lightgray;
+    .sign {
+        font-size: 0.8em;
+        i {
+            color: tomato;
+        }
+        a {
+            color: $purple;
+        }
+    }
 }
 
 @import 'responsive';
