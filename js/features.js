@@ -15,6 +15,24 @@ jQuery(document).ready(function() {
     });
 });
 
+// SCROLL MENU
+jQuery(document).ready(function() {
+
+    var nav = $('.event-header');
+    var navh1 = $('.event-header h1')
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 250) {
+            nav.addClass("f-event-header");
+            navh1.hide();
+        } else {
+            nav.removeClass("f-event-header");
+            navh1.show();
+        }
+    });
+
+});
+
 // MODAL POP-UP
 $(document).ready(function(){
 

@@ -107,45 +107,60 @@ header {
         max-width: 900px;
         width: 100%;
         margin: 0 auto;
-        nav.event-nav {
-            width: 100%;
-            ul {
-                li {
-                    list-style: none;
-                    display: inline-block;
-                    text-align: center;
-                    width: 24%;
-                    a {
+        .event-header {
+            background-color: white;
+            padding: 0;
+            &.f-event-header {
+                width: 100%;
+                position: fixed;
+                padding-top: 20px;
+                height: 70px;
+                top: 0;
+                left: 0;
+                background-color: white;
+                border: 1px solid $lightgray;
+                z-index: 3;
+            }
+            nav.event-nav {
+                width: 100%;
+                ul {
+                    li {
+                        list-style: none;
                         display: inline-block;
-                        color: $mediumgray;
-                        font-size: 1.2em;
-                        margin: 0 2em 2em 2em;
-                        &:hover {
-                            color: $blue;
-                        }
-                        &.current {
-                            color: $darkblue;
+                        text-align: center;
+                        width: 24%;
+                        a {
+                            display: inline-block;
+                            color: $mediumgray;
+                            font-size: 1.2em;
+                            margin: 0 2em 2em 2em;
+                            &:hover {
+                                color: $blue;
+                            }
+                            &.current {
+                                color: $darkblue;
+                            }
                         }
                     }
                 }
             }
-        }
-        #event-nav-icon {
-            display: none;
-            font-size: 2em;
-            margin: 15px 6px 0 0;
-            position: absolute;
-            top: 0;
-            right: 0;
-            cursor: pointer;
-        }
-        #talks-nav-icon {
-            font-size: 2em;
-            margin: 20px 0 0 6px;
-            position: absolute;
-            top: 0;
-            left: 0;
-            cursor: pointer;
+            #event-nav-icon {
+                display: none;
+                font-size: 2em;
+                margin: 15px 6px 0 0;
+                position: absolute;
+                top: 0;
+                right: 0;
+                cursor: pointer;
+            }
+            #talks-nav-icon {
+                font-size: 2em;
+                margin: 20px 0 0 6px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                cursor: pointer;
+            }
         }
         nav.event-mobile {
             display: none;
@@ -236,15 +251,15 @@ header {
                     }
                 }
             }
-        }
-        .event-img {
-            width: 100%;
-        }
-        .event-text {
-            color: darken($mediumgray, 10%);
-            text-align: justify;
-            margin: 2em 0 0 0;
-            padding: 0.6em;
+            .event-img {
+                width: 100%;
+            }
+            .event-text {
+                color: darken($mediumgray, 10%);
+                text-align: justify;
+                margin: 2em 0 0 0;
+                padding: 0.6em;
+            }
         }
         //TALKS
         .talks-track-title {

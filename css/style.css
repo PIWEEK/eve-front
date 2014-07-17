@@ -380,28 +380,43 @@ header input.search {
   width: 100%;
   margin: 0 auto;
 }
-.content .event-content nav.event-nav {
+.content .event-content .event-header {
+  background-color: white;
+  padding: 0;
+}
+.content .event-content .event-header.f-event-header {
+  width: 100%;
+  position: fixed;
+  padding-top: 20px;
+  height: 70px;
+  top: 0;
+  left: 0;
+  background-color: white;
+  border: 1px solid #dbe2e3;
+  z-index: 3;
+}
+.content .event-content .event-header nav.event-nav {
   width: 100%;
 }
-.content .event-content nav.event-nav ul li {
+.content .event-content .event-header nav.event-nav ul li {
   list-style: none;
   display: inline-block;
   text-align: center;
   width: 24%;
 }
-.content .event-content nav.event-nav ul li a {
+.content .event-content .event-header nav.event-nav ul li a {
   display: inline-block;
   color: #93a7ac;
   font-size: 1.2em;
   margin: 0 2em 2em 2em;
 }
-.content .event-content nav.event-nav ul li a:hover {
+.content .event-content .event-header nav.event-nav ul li a:hover {
   color: #5fbcd3;
 }
-.content .event-content nav.event-nav ul li a.current {
+.content .event-content .event-header nav.event-nav ul li a.current {
   color: #164450;
 }
-.content .event-content #event-nav-icon {
+.content .event-content .event-header #event-nav-icon {
   display: none;
   font-size: 2em;
   margin: 15px 6px 0 0;
@@ -410,7 +425,7 @@ header input.search {
   right: 0;
   cursor: pointer;
 }
-.content .event-content #talks-nav-icon {
+.content .event-content .event-header #talks-nav-icon {
   font-size: 2em;
   margin: 20px 0 0 6px;
   position: absolute;
@@ -508,10 +523,10 @@ header input.search {
   color: white;
   font-weight: 500;
 }
-.content .event-content .event-img {
+.content .event-content nav.talks-mobile .event-img {
   width: 100%;
 }
-.content .event-content .event-text {
+.content .event-content nav.talks-mobile .event-text {
   color: #769096;
   text-align: justify;
   margin: 2em 0 0 0;
@@ -650,10 +665,10 @@ footer .sign a {
   .content .home-grid > .event-home .event-home-info {
     font-size: 0.8em;
   }
-  .content .event-content .event-nav {
+  .content .event-content .event-header .event-nav {
     display: none;
   }
-  .content .event-content #event-nav-icon {
+  .content .event-content .event-header #event-nav-icon {
     display: block;
   }
   .content .event-content .event-text {

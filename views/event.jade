@@ -20,20 +20,23 @@ html( lang='en-US')
                     img(src='../images/eve.svg', border='0')
 
                 input.search.right(type='text', placeholder='Search an event')
+            //CONTENT
             .content
                 section.event-content
-                    h1.full Event Name
-                    nav.event-nav
-                        ul
-                            li
-                                a(href='event.html' class='current') Info
-                            li
-                                a(href='event-talks.html') Talks
-                            li
-                                a(href='event-speakers.html') Speakers
-                            li
-                                a(href='event-location.html') Location
-                    i.icon-menu#event-nav-icon
+                    .event-header
+                        i.icon-bubbles#talks-nav-icon
+                        h1.full Event Name
+                        nav.event-nav
+                            ul
+                                li
+                                    a(href='event.html') Info
+                                li
+                                    a(href='event-talks.html' class='current') Talks
+                                li
+                                    a(href='event-speakers.html') Speakers
+                                li
+                                    a(href='event-location.html') Location
+                        i.icon-menu#event-nav-icon
                     nav.event-mobile
                         ul
                             li
