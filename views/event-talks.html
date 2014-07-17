@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
     <script src="../bower_components/jquery/dist/jquery.js" type="text/javascript"></script>
     <script src="../js/features.js" type="text/javascript"></script>
+    <script src="../js/jquery.modal.js" type="text/javascript"></script>
   </head>
   <body>
     <div class="row">
@@ -18,6 +19,12 @@
         <div class="eve-icon inline-block"><img src="../images/eve.svg" border="0"></div>
         <input type="text" placeholder="Search an event" class="search right">
       </header>
+      <!--MODAL POPUP-->
+      <div class="overlay"></div>
+      <div class="modal"><a href="#" class="closeBtn">Close Me</a>
+        <p>MODAL POPUP</p>
+      </div>
+      <!--CONTENT-->
       <div class="content">
         <section class="event-content"><i id="talks-nav-icon" class="icon-bubbles"></i>
           <h1 class="full">Event Name</h1>
@@ -60,7 +67,7 @@
           <div class="talks-row">
             <div class="talks-row-hour">09:00h</div>
             <div class="talks-row-content"><span class="talk-title">Talk title lorem ipsum</span><span class="talk-speaker">@speakermaster</span><span class="talk-location">Sala 1</span></div>
-            <div class="talks-row-btn"><i class="icon-plus"></i></div>
+            <div class="talks-row-btn modalLink"><i class="icon-plus"></i></div>
           </div>
           <div class="talks-row">
             <div class="talks-row-hour">10:00h</div>

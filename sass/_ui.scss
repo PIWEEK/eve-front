@@ -162,6 +162,27 @@ input.search {
     }
 }
 
+//MODAL POP-UP
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;
+}
+.modal{
+    display: none;
+    background: #eee;
+    padding: 0 20px 20px;
+    overflow: auto;
+    z-index: 1001;
+    position: absolute;
+    width: 500px;
+    min-height: 300px;
+}
+
 //COLORS
 .bg-white {
     background-color: white;

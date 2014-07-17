@@ -263,7 +263,7 @@ header {
             margin: 8px 0;
             font-size: 4em;
             h3 {
-                color: lightblue;
+                color: lighten($blue, 22%);
             }
         }
         .talks-row {
