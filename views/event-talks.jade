@@ -1,0 +1,121 @@
+doctype html
+html( lang='en-US')
+    head
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+        title EVE APP | Event name | Speakers
+        link(rel='stylesheet', href='../css/style.css')
+        link(rel='stylesheet', href='../fonts/font-framework/style.css')
+        link(rel='stylesheet', href='../bower_components/animate.css/animate.min.css')
+        link(rel='stylesheet', type='text/css', link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800')
+        script(src='../bower_components/jquery/dist/jquery.js', type='text/javascript')
+        script(src='../js/features.js', type='text/javascript')
+    body
+        .row
+            header.full.block
+                .eve-logo.inline-block
+                    a(href='#')
+                        img(src='../images/eve-text.png', border='0')
+                .eve-icon.inline-block
+                    img(src='../images/eve.svg', border='0')
+
+                input.search.right(type='text', placeholder='Search an event')
+            .content
+                section.event-content
+                    i.icon-bubbles#talks-nav-icon
+                    h1.full Event Name
+                    nav.event-nav
+                        ul
+                            li
+                                a(href='event.html') Info
+                            li
+                                a(href='event-talks.html' class='current') Talks
+                            li
+                                a(href='event-speakers.html') Speakers
+                            li
+                                a(href='event-location.html') Location
+                    i.icon-menu#event-nav-icon
+                    nav.event-mobile
+                        ul
+                            li
+                                img(src='../images/eve.svg', border='0', class='icon-eve')
+                            li
+                                a(href='event.html') Info
+                            li
+                                a(href='event-talks.html') Talks
+                            li
+                                a(href='event-speakers.html') Speakers
+                            li
+                                a(href='event-location.html') Location
+                    nav.talks-mobile
+                        ul
+                            li.talks-img-menu
+                                .talks-mobile-info
+                                    p Event Name
+                                img(src='../images/2x1.png', border='0')
+                            li
+                                a(href='#') Track name 1
+                            li
+                                a(href='#') Track name 2
+                            li
+                                a(href='#') Track name 3
+                            li
+                                a(href='#') Track name 4
+                    .talks-track-title
+                        h2 Track title
+                    .talks-day-title
+                        h3 DAY 1
+                    .talks-row
+                        .talks-row-hour 09:00h
+                        .talks-row-content
+                            span.talk-title Talk title lorem ipsum
+                            span.talk-speaker @speakermaster
+                            span.talk-location Sala 1
+                        .talks-row-btn
+                            i.icon-plus
+                    .talks-row
+                        .talks-row-hour 10:00h
+                        .talks-row-content
+                            span.talk-title Talk title lorem ipsum
+                            span.talk-speaker @speakermaster
+                            span.talk-location Sala 2
+                        .talks-row-btn
+                            i.icon-plus
+                    .talks-row
+                        .talks-row-hour 10:40h
+                        .talks-row-content
+                            span.talk-title Talk title lorem ipsum
+                            span.talk-speaker @speakermaster
+                            span.talk-location Sala 3
+                        .talks-row-btn
+                            i.icon-plus
+                    .talks-day-title
+                        h3 DAY 2
+                    .talks-row
+                        .talks-row-hour 09:00h
+                        .talks-row-content
+                            span.talk-title Talk title lorem ipsum
+                            span.talk-speaker @speakermaster
+                            span.talk-location Sala 1
+                        .talks-row-btn
+                            i.icon-plus
+                    .talks-row
+                        .talks-row-hour 10:00h
+                        .talks-row-content
+                            span.talk-title Talk title lorem ipsum
+                            span.talk-speaker @speakermaster
+                            span.talk-location Sala 2
+                        .talks-row-btn
+                            i.icon-plus
+                    .talks-row
+                        .talks-row-hour 10:40h
+                        .talks-row-content
+                            span.talk-title Talk title lorem ipsum
+                            span.talk-speaker @speakermaster
+                            span.talk-location Sala 3
+                        .talks-row-btn
+                            i.icon-plus
+            footer
+                p
+                    span eveapp ©2014 |
+                    a(href='#') Log In

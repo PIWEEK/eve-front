@@ -60,6 +60,10 @@ h2 {
     @include translate-3d(-70%, 0, 0);
 }
 
+.translate-3d-menu-left {
+    @include translate-3d(70%, 0, 0);
+}
+
 //GRID
 .full {
     width: 100%;

@@ -2,6 +2,8 @@
 @media only screen and (max-width: 48em) {
     //GENERAL
     header {
+        padding: 0.6em;
+        height: 70px;
         .eve-logo > a > img {
             width: 140px;
         }
@@ -49,11 +51,22 @@
                 font-size: 0.9em;
             }
         }
+        //TALKS
+        .talks-row {
+            font-size: 0.8em;
+        }
     }
 }
 
 //SMARTPHONE PORTRAIT
 @media only screen and (max-width: 30em) {
+    //GENERAL
+    header {
+        .eve-logo > a > img {
+            width: 120px;
+            margin-top: 8px;
+        }
+    }
     //GRID
     .third {
         width: 100%;
@@ -66,5 +79,21 @@
     //HOME
     .content > .home-grid > .event-home {
         padding-bottom: 49.35%;
+    }
+    .content {
+        //TALKS
+        .event-content {
+            .talks-row {
+                .talks-row-hour {
+                    font-size: 1.5em;
+                    vertical-align: top;
+                }
+                .talks-row-content {
+                    .talk-title {
+                        font-size: 1.2em;
+                    }
+                }
+            }
+        }
     }
 }
