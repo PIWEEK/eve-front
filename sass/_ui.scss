@@ -174,13 +174,34 @@ input.search {
 }
 .modal{
     display: none;
-    background: #eee;
+    background: white;
     padding: 0 20px 20px;
     overflow: auto;
     z-index: 1001;
     position: absolute;
-    width: 500px;
+    width: 600px;
     min-height: 300px;
+    .closeBtn {
+        float: right;
+        margin: 15px 0 0 0;
+    }
+    h2.modal-title {
+        color: $blue;
+    }
+    .modal-speaker {
+        color: $mediumblue;
+        margin-bottom: 12px;
+    }
+    .modal-share {
+        width: 100%;
+        text-align: center;
+        i {
+            font-size: 2em;
+            &.icon-twitter {
+                color: $twitter;
+            }
+        }
+    }
 }
 
 //COLORS

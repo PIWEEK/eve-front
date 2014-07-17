@@ -240,13 +240,34 @@ input.search:focus:-ms-input-placeholder {
 
 .modal {
   display: none;
-  background: #eee;
+  background: white;
   padding: 0 20px 20px;
   overflow: auto;
   z-index: 1001;
   position: absolute;
-  width: 500px;
+  width: 600px;
   min-height: 300px;
+}
+.modal .closeBtn {
+  float: right;
+  margin: 15px 0 0 0;
+}
+.modal h2.modal-title {
+  color: #5fbcd3;
+}
+.modal .modal-speaker {
+  color: #006680;
+  margin-bottom: 12px;
+}
+.modal .modal-share {
+  width: 100%;
+  text-align: center;
+}
+.modal .modal-share i {
+  font-size: 2em;
+}
+.modal .modal-share i.icon-twitter {
+  color: #00aced;
 }
 
 .bg-white {
@@ -524,11 +545,9 @@ header input.search {
   width: 100%;
   border-bottom: 1px solid #dbe2e3;
   max-height: 150px;
-  height: 100%;
   position: relative;
 }
 .content .event-content .talks-row .talks-row-hour {
-  height: 100%;
   text-align: center;
   display: inline-block;
   background-color: #dbe2e3;
@@ -643,6 +662,10 @@ footer .sign a {
   .content .talks-row {
     font-size: 0.8em;
   }
+
+  .modal {
+    width: 450px;
+  }
 }
 @media only screen and (max-width: 30em) {
   header .eve-logo > a > img {
@@ -671,5 +694,10 @@ footer .sign a {
   }
   .content .event-content .talks-row .talks-row-content .talk-title {
     font-size: 1.2em;
+  }
+
+  .modal {
+    width: 320px;
+    font-size: 0.8em;
   }
 }
