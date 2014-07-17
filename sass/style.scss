@@ -286,18 +286,21 @@ header {
             border-bottom: 1px solid $lightgray;
             max-height: 150px;
             position: relative;
+            margin-bottom: 5px;
             .talks-row-hour {
                 text-align: center;
+                vertical-align: middle;
                 display: inline-block;
                 background-color: $lightgray;
                 color: $mediumgray;
-                padding: 1em 3.5%;
+                padding: 1.3em 3.5%;
                 font-size: 2em;
                 font-weight: 700;
             }
             .talks-row-content {
+                vertical-align: bottom;
                 display: inline-block;
-                padding: 2%;
+                padding: 0 2% 2% 2%;
                 width: 60%;
                 .talk-title {
                     display: block;
@@ -331,6 +334,9 @@ header {
                         color: white;
                     }
                 }
+            }
+            .tagline {
+                margin-top: 4px;
             }
         }
         .speaker-row {

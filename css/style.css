@@ -570,19 +570,22 @@ header input.search {
   border-bottom: 1px solid #dbe2e3;
   max-height: 150px;
   position: relative;
+  margin-bottom: 5px;
 }
 .content .event-content .talks-row .talks-row-hour {
   text-align: center;
+  vertical-align: middle;
   display: inline-block;
   background-color: #dbe2e3;
   color: #93a7ac;
-  padding: 1em 3.5%;
+  padding: 1.3em 3.5%;
   font-size: 2em;
   font-weight: 700;
 }
 .content .event-content .talks-row .talks-row-content {
+  vertical-align: bottom;
   display: inline-block;
-  padding: 2%;
+  padding: 0 2% 2% 2%;
   width: 60%;
 }
 .content .event-content .talks-row .talks-row-content .talk-title {
@@ -616,6 +619,9 @@ header input.search {
 }
 .content .event-content .talks-row .talks-row-btn:hover i {
   color: white;
+}
+.content .event-content .talks-row .tagline {
+  margin-top: 4px;
 }
 .content .event-content .speaker-row {
   width: 100%;
@@ -767,7 +773,6 @@ footer .sign a {
   }
   .content .event-content .talks-row .talks-row-hour {
     font-size: 1.5em;
-    vertical-align: top;
   }
   .content .event-content .talks-row .talks-row-content .talk-title {
     font-size: 1.2em;
