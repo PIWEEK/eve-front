@@ -3,7 +3,7 @@ html( lang='en-US')
     head
         meta(name='viewport', content='width=device-width, initial-scale=1')
         meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
-        title EVE APP | Event name | Talks
+        title EVE APP | Event name | Speakers
         link(rel='stylesheet', href='../css/style.css')
         link(rel='stylesheet', href='../fonts/font-framework/style.css')
         link(rel='stylesheet', href='../bower_components/animate.css/animate.min.css')
@@ -24,10 +24,11 @@ html( lang='en-US')
             //MODAL POPUP
             .overlay
             .modal
+                img(src='../images/eve.svg', alt='Pepe Botella', border='0')
                 a(href='#', class='closeBtn')
                     i.icon-close
-                h2.modal-title Talk name lorem ipsum
-                .modal-speaker @speakermaster
+                h2.modal-title Pepe Botella
+                .modal-speaker Scrum master at Chita Labs
                 .modal-text
                     p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 .modal-share
@@ -44,9 +45,9 @@ html( lang='en-US')
                                 li
                                     a(href='event.html') Info
                                 li
-                                    a(href='event-talks.html', class='current') Talks
+                                    a(href='event-talks.html') Talks
                                 li
-                                    a(href='event-speakers.html') Speakers
+                                    a(href='event-speakers.html', class='current') Speakers
                                 li
                                     a(href='event-location.html') Location
                         i.icon-menu#event-nav-icon
@@ -76,59 +77,65 @@ html( lang='en-US')
                                 a(href='#') Track name 3
                             li
                                 a(href='#') Track name 4
-                    .talks-track-title
-                        h2 Track title
-                    .talks-day-title
-                        h3 DAY 1
-                    .talks-row
-                        .talks-row-hour 09:00h
-                        .talks-row-content
-                            span.talk-title Talk title lorem ipsum
-                            span.talk-speaker @speakermaster
-                            span.talk-location Sala 1
-                        .talks-row-btn.modalLink
+                    .speaker-row
+                        .speaker-row-img
+                            img(src='../images/eve.svg', alt='Pepe Botella', border='0')
+                        .speaker-row-content
+                            span.speaker-name Pepe Botella
+                            span.speaker-title Scrum master at Chita Labs
+                            .tagline
+                                .tag.tag-green Groovy
+                        .speaker-row-btn.modalLink
                             i.icon-plus
-                    .talks-row
-                        .talks-row-hour 10:00h
-                        .talks-row-content
-                            span.talk-title Talk title lorem ipsum
-                            span.talk-speaker @speakermaster
-                            span.talk-location Sala 2
-                        .talks-row-btn
+                    .speaker-row
+                        .speaker-row-img
+                            img(src='../images/eve.svg', alt='Pepe Botella', border='0')
+                        .speaker-row-content
+                            span.speaker-name Pepe Botella
+                            span.speaker-title Scrum master at Chita Labs
+                            .tagline
+                                .tag.tag-green Groovy
+                        .speaker-row-btn
                             i.icon-plus
-                    .talks-row
-                        .talks-row-hour 10:40h
-                        .talks-row-content
-                            span.talk-title Talk title lorem ipsum
-                            span.talk-speaker @speakermaster
-                            span.talk-location Sala 3
-                        .talks-row-btn
+                    .speaker-row
+                        .speaker-row-img
+                            img(src='../images/eve.svg', alt='Pepe Botella', border='0')
+                        .speaker-row-content
+                            span.speaker-name Pepe Botella
+                            span.speaker-title Scrum master at Chita Labs
+                            .tagline
+                                .tag.tag-pink Ruby
+                        .speaker-row-btn
                             i.icon-plus
-                    .talks-day-title
-                        h3 DAY 2
-                    .talks-row
-                        .talks-row-hour 09:00h
-                        .talks-row-content
-                            span.talk-title Talk title lorem ipsum
-                            span.talk-speaker @speakermaster
-                            span.talk-location Sala 1
-                        .talks-row-btn
+                    .speaker-row
+                        .speaker-row-img
+                            img(src='../images/eve.svg', alt='Pepe Botella', border='0')
+                        .speaker-row-content
+                            span.speaker-name Pepe Botella
+                            span.speaker-title Scrum master at Chita Labs
+                            .tagline
+                                .tag.tag-purple HTML
+                        .speaker-row-btn
                             i.icon-plus
-                    .talks-row
-                        .talks-row-hour 10:00h
-                        .talks-row-content
-                            span.talk-title Talk title lorem ipsum
-                            span.talk-speaker @speakermaster
-                            span.talk-location Sala 2
-                        .talks-row-btn
+                    .speaker-row
+                        .speaker-row-img
+                            img(src='../images/eve.svg', alt='Pepe Botella', border='0')
+                        .speaker-row-content
+                            span.speaker-name Pepe Botella
+                            span.speaker-title Scrum master at Chita Labs
+                            .tagline
+                                .tag.tag-yellow JavaScript
+                        .speaker-row-btn
                             i.icon-plus
-                    .talks-row
-                        .talks-row-hour 10:40h
-                        .talks-row-content
-                            span.talk-title Talk title lorem ipsum
-                            span.talk-speaker @speakermaster
-                            span.talk-location Sala 3
-                        .talks-row-btn
+                    .speaker-row
+                        .speaker-row-img
+                            img(src='../images/eve.svg', alt='Pepe Botella', border='0')
+                        .speaker-row-content
+                            span.speaker-name Pepe Botella
+                            span.speaker-title Scrum master at Chita Labs
+                            .tagline
+                                .tag.tag-red Java
+                        .speaker-row-btn
                             i.icon-plus
             footer
                 p

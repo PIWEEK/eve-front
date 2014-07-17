@@ -269,6 +269,15 @@ input.search:focus:-ms-input-placeholder {
 .modal .modal-share i.icon-twitter {
   color: #00aced;
 }
+.modal img {
+  float: left;
+  width: 120px;
+  margin: 8px 14px 0 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
 
 .bg-white {
   background-color: white;
@@ -608,6 +617,59 @@ header input.search {
 .content .event-content .talks-row .talks-row-btn:hover i {
   color: white;
 }
+.content .event-content .speaker-row {
+  width: 100%;
+  border-bottom: 1px solid #dbe2e3;
+  max-height: 150px;
+  position: relative;
+}
+.content .event-content .speaker-row .speaker-row-img {
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.content .event-content .speaker-row .speaker-row-content {
+  vertical-align: middle;
+  display: inline-block;
+  padding: 2%;
+  width: 60%;
+}
+.content .event-content .speaker-row .speaker-row-content .speaker-name {
+  display: block;
+  font-size: 1.4em;
+  color: #006680;
+}
+.content .event-content .speaker-row .speaker-row-content .speaker-title {
+  display: block;
+  color: #5fbcd3;
+}
+.content .event-content .speaker-row .speaker-row-btn {
+  position: absolute;
+  top: 25%;
+  right: 10px;
+  padding: 1.8% 1.9%;
+  border-radius: 50%;
+  border: 1px solid #b6c3c7;
+  line-height: 1;
+  cursor: pointer;
+}
+.content .event-content .speaker-row .speaker-row-btn i {
+  color: #b6c3c7;
+}
+.content .event-content .speaker-row .speaker-row-btn:hover {
+  border: 1px solid #5fbcd3;
+  background-color: #5fbcd3;
+}
+.content .event-content .speaker-row .speaker-row-btn:hover i {
+  color: white;
+}
+.content .event-content .speaker-row .tagline {
+  margin: 5px 0 0 0;
+}
 
 footer {
   margin-top: 2em;
@@ -710,9 +772,18 @@ footer .sign a {
   .content .event-content .talks-row .talks-row-content .talk-title {
     font-size: 1.2em;
   }
+  .content .event-content .speaker-row .speaker-row-img {
+    width: 70px;
+  }
+  .content .event-content .speaker-row .tagline {
+    font-size: 0.8em;
+  }
 
   .modal {
     width: 320px;
     font-size: 0.8em;
+  }
+  .modal img {
+    width: 80px;
   }
 }

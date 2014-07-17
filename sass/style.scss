@@ -333,6 +333,56 @@ header {
                 }
             }
         }
+        .speaker-row {
+            width: 100%;
+            border-bottom: 1px solid $lightgray;
+            max-height: 150px;
+            position: relative;
+            .speaker-row-img {
+                vertical-align: middle;
+                display: inline-block;
+                max-width: 100px;
+                @include border-radius(50%);
+            }
+            .speaker-row-content {
+                vertical-align: middle;
+                display: inline-block;
+                padding: 2%;
+                width: 60%;
+                .speaker-name {
+                    display: block;
+                    font-size: 1.4em;
+                    color: $mediumblue;
+                }
+                .speaker-title {
+                    display: block;
+                    color: $blue;
+                }
+            }
+            .speaker-row-btn {
+                position: absolute;
+                top: 25%;
+                right: 10px;
+                padding: 1.8% 1.9%;
+                border-radius: 50%;
+                border: 1px solid lighten($mediumgray, 12%);
+                line-height: 1;
+                cursor: pointer;
+                i {
+                    color: lighten($mediumgray, 12%);
+                }
+                &:hover {
+                    border: 1px solid $blue;
+                    background-color: $blue;
+                    i {
+                        color: white;
+                    }
+                }
+            }
+            .tagline {
+                margin: 5px 0 0 0;
+            }
+        }
     }
     // .nav-days {
     //     border-top: 1px solid $lightgray;

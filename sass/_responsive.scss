@@ -103,11 +103,22 @@
                     }
                 }
             }
+            .speaker-row {
+                .speaker-row-img {
+                    width: 70px;
+                }
+                .tagline {
+                    font-size: 0.8em;
+                }
+            }
         }
     }
     //MODAL
     .modal {
         width: 320px;
         font-size: 0.8em;
+        img {
+            width: 80px;
+        }
     }
 }
