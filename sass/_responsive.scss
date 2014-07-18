@@ -52,10 +52,15 @@
             .event-text {
                 font-size: 0.9em;
             }
-        }
-        //TALKS
-        .talks-row {
-            font-size: 0.8em;
+            //TALKS
+            .talks-row {
+                font-size: 0.8em;
+                .talks-row-btn {
+                    &.star {
+                        right: 60px;
+                    }
+                }
+            }
         }
     }
     //MODAL
@@ -96,10 +101,15 @@
             .talks-row {
                 .talks-row-hour {
                     font-size: 1.5em;
-        }
+                }
                 .talks-row-content {
                     .talk-title {
                         font-size: 1.2em;
+                    }
+                }
+                .talks-row-btn {
+                    &.star {
+                        right: 50px;
                     }
                 }
             }

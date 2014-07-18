@@ -417,7 +417,8 @@ header input.search {
   list-style: none;
   display: inline-block;
   text-align: center;
-  width: 24%;
+  width: 19.4%;
+  white-space: nowrap;
 }
 .content .event-content .event-header nav.event-nav ul li a {
   display: inline-block;
@@ -626,7 +627,19 @@ header input.search {
 .content .event-content .talks-row .talks-row-btn:hover i {
   color: white;
 }
-.content .event-content .talks-row .tagline {
+.content .event-content .talks-row .talks-row-btn.star {
+  right: 70px;
+  border: none;
+  font-size: 1.8em;
+  top: 20%;
+}
+.content .event-content .talks-row .talks-row-btn.star:hover, .content .event-content .talks-row .talks-row-btn.star.current {
+  background-color: transparent;
+}
+.content .event-content .talks-row .talks-row-btn.star:hover i, .content .event-content .talks-row .talks-row-btn.star.current i {
+  color: #ffdd55;
+}
+.content .event-content .talks-row .tagline .tag {
   margin-top: 4px;
 }
 .content .event-content .speaker-row {
@@ -753,8 +766,11 @@ footer .sign a {
   .content .event-content .event-text {
     font-size: 0.9em;
   }
-  .content .talks-row {
+  .content .event-content .talks-row {
     font-size: 0.8em;
+  }
+  .content .event-content .talks-row .talks-row-btn.star {
+    right: 60px;
   }
 
   .modal {
@@ -788,6 +804,9 @@ footer .sign a {
   }
   .content .event-content .talks-row .talks-row-content .talk-title {
     font-size: 1.2em;
+  }
+  .content .event-content .talks-row .talks-row-btn.star {
+    right: 50px;
   }
   .content .event-content .speaker-row .speaker-row-img {
     width: 70px;

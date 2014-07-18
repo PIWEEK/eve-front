@@ -128,7 +128,8 @@ header {
                         list-style: none;
                         display: inline-block;
                         text-align: center;
-                        width: 24%;
+                        width: 19.4%;
+                        white-space: nowrap;
                         a {
                             display: inline-block;
                             color: $mediumgray;
@@ -334,9 +335,23 @@ header {
                         color: white;
                     }
                 }
+                &.star {
+                    right: 70px;
+                    border: none;
+                    font-size: 1.8em;
+                    top: 20%;
+                    &:hover, &.current {
+                        background-color: transparent;
+                        i {
+                            color: $yellow;
+                        }
+                    }
+                }
             }
             .tagline {
-                margin-top: 4px;
+                .tag {
+                    margin-top: 4px;
+                }
             }
         }
         .speaker-row {
