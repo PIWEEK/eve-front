@@ -574,7 +574,6 @@ header input.search {
 .content .event-content .talks-row {
   width: 100%;
   border-bottom: 1px solid #dbe2e3;
-  max-height: 150px;
   position: relative;
   margin-bottom: 5px;
 }
@@ -809,6 +808,7 @@ footer .sign a {
   }
   .content .event-content .speaker-row .speaker-row-img {
     width: 70px;
+    height: 70px;
   }
   .content .event-content .speaker-row .tagline {
     font-size: 0.8em;
