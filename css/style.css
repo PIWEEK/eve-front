@@ -643,7 +643,6 @@ header input.search {
 .content .event-content .speaker-row {
   width: 100%;
   border-bottom: 1px solid #dbe2e3;
-  max-height: 150px;
   position: relative;
 }
 .content .event-content .speaker-row .speaker-row-img {
