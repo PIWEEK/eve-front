@@ -347,8 +347,13 @@ header {
             .speaker-row-img {
                 vertical-align: middle;
                 display: inline-block;
-                max-width: 100px;
-                @include border-radius(50%);
+                width: 100px;
+                height: 100px;
+                overflow: hidden;
+                img {
+                    height: 100%;
+                    @include border-radius(50%);
+                }
             }
             .speaker-row-content {
                 vertical-align: middle;
