@@ -395,6 +395,15 @@ header input.search {
   width: 100%;
   margin: 0 auto;
 }
+.content .event-content .event-img {
+  width: 100%;
+}
+.content .event-content .event-text {
+  color: #769096;
+  text-align: justify;
+  margin: 2em 0 0 0;
+  padding: 0.6em;
+}
 .content .event-content .event-header {
   background-color: white;
   padding: 0;
@@ -538,15 +547,6 @@ header input.search {
 .content .event-content nav.talks-mobile ul .talks-img-menu .talks-mobile-info p {
   color: white;
   font-weight: 500;
-}
-.content .event-content nav.talks-mobile .event-img {
-  width: 100%;
-}
-.content .event-content nav.talks-mobile .event-text {
-  color: #769096;
-  text-align: justify;
-  margin: 2em 0 0 0;
-  padding: 0.6em;
 }
 .content .event-content .talks-track-title {
   width: 100%;

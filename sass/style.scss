@@ -107,6 +107,15 @@ header {
         max-width: 900px;
         width: 100%;
         margin: 0 auto;
+        .event-img {
+            width: 100%;
+        }
+        .event-text {
+            color: darken($mediumgray, 10%);
+            text-align: justify;
+            margin: 2em 0 0 0;
+            padding: 0.6em;
+        }
         .event-header {
             background-color: white;
             padding: 0;
@@ -251,15 +260,6 @@ header {
                         }
                     }
                 }
-            }
-            .event-img {
-                width: 100%;
-            }
-            .event-text {
-                color: darken($mediumgray, 10%);
-                text-align: justify;
-                margin: 2em 0 0 0;
-                padding: 0.6em;
             }
         }
         //TALKS
